@@ -1,2 +1,23 @@
 'use strict';
 
+// window.addEventListener('DOMContentLoaded', () => {
+const buttons = document.querySelectorAll('.button'),
+	audioOfButtons = document.querySelectorAll('.sound_effect'),
+	letters = document.querySelectorAll('.letter');
+
+document.addEventListener('keydown', (e) => {
+	letters.forEach((letter, i) => {
+		if (e.key === letter.innerHTML) {
+			audioOfButtons[i].play();
+			addActiveClassForButton(buttons[i]);
+		}
+	});
+});
+
+
+// document.addEventListener('keydown', (e) => {
+// 	if (e.key === 'a') {
+// 		console.log(1);
+// 	}
+// });
+// })
