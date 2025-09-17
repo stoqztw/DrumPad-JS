@@ -93,6 +93,7 @@
 			text-transform: uppercase;
 			font-size: 64px;
 			user-select: none;
+			pointer-events: none;
 		}
 
 		.sound_name {
@@ -102,6 +103,7 @@
 			bottom: 0;
 			text-transform: uppercase;
 			user-select: none;
+			pointer-events: none;
 		}
 	}
 }

@@ -23,6 +23,12 @@ document.addEventListener('keydown', (e) => {
 	});
 });
 
+buttons.forEach((btn, i) => {
+	btn.addEventListener('click', (e) => {
+		audioOfButtons[i].play();
+	});
+});
+
 
 // document.addEventListener('keydown', (e) => {
 // 	if (e.key === 'a') {
