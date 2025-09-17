@@ -5,6 +5,15 @@ const buttons = document.querySelectorAll('.button'),
 	audioOfButtons = document.querySelectorAll('.sound_effect'),
 	letters = document.querySelectorAll('.letter');
 
+function addActiveClassForButton(btn) {
+	btn.classList.add('activeButton');
+	setTimeout(removeActiveClassForButton, 200);
+
+	function removeActiveClassForButton() {
+		btn.classList.remove('activeButton');
+	}
+}
+
 document.addEventListener('keydown', (e) => {
 	letters.forEach((letter, i) => {
 		if (e.key === letter.innerHTML) {
