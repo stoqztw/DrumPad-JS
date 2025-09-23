@@ -11,10 +11,10 @@
 
 ### 🛠️ Used Stacks
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" style="width: 28px; margin-right: 6px"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg" style="width: 28px; margin-right: 6px"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" style="width: 28px; margin-right: 6px"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" style="width: 28px; margin-right: 6px"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" style="width: 28px; padding-right: 6px"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg" style="width: 28px; padding-right: 6px"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" style="width: 28px; padding-right: 6px"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" style="width: 28px; padding-right: 6px"/>
 
 ### ⚙️ Installation & Usage
 
@@ -58,11 +58,11 @@ Click on the pads with your mouse/tap or use keyboard keys (e.g., A, S, D, etc.)
 
 Each pad plays a unique sound.
 
-📸 Screenshots
+### 📸 Screenshots
 
 ![Screenshot](public//assets/screenshot.png)
 
-📄 License
+### 📄 License
 
 Distributed under the MIT License.
 You are free to use and modify it for your own purposes.
